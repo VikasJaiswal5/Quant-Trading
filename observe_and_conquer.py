@@ -305,17 +305,17 @@ def run():
             print(current_time_in_ist)
           
 
-            url = "https://untrade.io/api/v1/strategy/trade/create"
+            # url = "https://untrade.io/api/v1/strategy/trade/"
 
             # Define the headers
             headers = {
                 "Content-Type": "application/json",
-                "UnTrade-Api-Key": "49697153-1a44-42cb-9420-2253e6677310"
+                # "UnTrade-Api-Key": "49697153-1h4467567-42cb-9420-2253e6677310"
             }
             
             # Define the payload (JSON data)
             payload = {
-                "algorithm": "324a60b1-a90b-46cd-8dea-90b30113ca0a",
+                # "algorithm": "324a60b1-a90b-46cd-8dea-khkh90b30113ca0a",
                 "action": "buy",  # Replace with your desired action (buy/sell/square_off)
                 "target_price": target_price,  # Optional: Replace with your target price
                 # "stop_loss": "<YOUR-STOP-LOSS-HERE>"  # Optional: Replace with your stop loss
@@ -353,7 +353,7 @@ def run():
             
             # Define the payload (JSON data)
             payload = {
-                "algorithm": "324a60b1-a90b-46cd-8dea-90b30113ca0a",
+                # "algorithm": "324a60b1-a9jghfjh0b-46cd-8dea-90b30113ca0a",
                 "action": "sell",  # Replace with your desired action (buy/sell/square_off)
                 "target_price": target_price,  # Optional: Replace with your target price
                 # "stop_loss": "<YOUR-STOP-LOSS-HERE>"  # Optional: Replace with your stop loss
@@ -425,12 +425,12 @@ def run():
                     # Define the headers
                 headers = {
                     "Content-Type": "application/json",
-                    "UnTrade-Api-Key": "49697153-1a44-42cb-9420-2253e6677310"
+                    # "UnTrade-Api-Key": "496hjghjfj97153-1a44-42cb-9420-2253e6677310"
                 }
                 
                 # Define the payload (JSON data)
                 payload = {
-                    "algorithm": "324a60b1-a90b-46cd-8dea-90b30113ca0a",
+                    # "algorithm": "324a6hhvg0b1-a90b-46cd-8dea-90b30113ca0a",
                     "action": "square_off",  # Replace with your desired action (buy/sell/square_off)
                     # "target_price": target_price,  # Optional: Replace with your target price
                     # "stop_loss": "<YOUR-STOP-LOSS-HERE>"  # Optional: Replace with your stop loss
